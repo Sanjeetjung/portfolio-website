@@ -20,19 +20,20 @@
 </head>
 <body>
 
+   
     <!--Navigation-->
     <header>
         
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3">
-                <div class="container">
+            <div class="container">
                     <a class="navbar-brand scroll-link" href="#home">
-                        <img src="img/logo3.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-center">
+                        <img src="img/logo3.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-center">`
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav nav-underline ml-auto mb-2 mb-lg-0">
                         <li class="nav-item active">
                             <a class="nav-link scroll-link" href="#home">Home</a>
                         </li>
@@ -46,10 +47,22 @@
                             <a class="nav-link scroll-link" href="#contact">Contact</a>
                         </li>
                         </ul>
-                    </div>
-                </div>
+                    </div>   
+                    <!-- language translator -->
+                    <div class="langWrap navbar-nav ml-auto mb-2 mb-lg-0">
+                        <a href="#" language="english" class="active">English</a>
+                        <a href="#" language="japanese">日本語</a>       
+                    </div>   
+            </div>
          </nav>
     </header>
+    <!-- language translator -->
+    <div class="container">
+        <div class="langWrap">
+            <a href="#" language="english">English</a>
+            <a href="#" language="japanese">日本語</a>       
+        </div>
+    </div>
 
     <!--home-->
     <section id="home">

@@ -17,6 +17,18 @@ body{
 .nav-link{
     font-size: 1.2rem;
 }
+.langWrap{
+    font-size: 1rem;
+}
+a{
+    color: #527cec;
+    text-decoration: none;
+    padding: 0 15px;
+    font-weight: bold;
+}
+a.active{
+    background: #a1b7f3;
+}
 
 /* home */
 #home{
